@@ -885,6 +885,14 @@ docs = ["pygments-github-lexers (>=0.0.5)", "sphinx (>=2.0.0)", "sphinxcontrib-a
 testing = ["flaky (>=3.4.0)", "freezegun (>=0.3.11)", "pathlib2 (>=2.3.3)", "psutil (>=5.6.1)", "pytest (>=4.0.0)", "pytest-cov (>=2.5.1)", "pytest-mock (>=1.10.0)", "pytest-randomly (>=1.0.0)", "pytest-xdist (>=1.22.2)"]
 
 [[package]]
+name = "trove-classifiers"
+version = "2020.10.7"
+description = "Canonical source for classifiers on PyPI (pypi.org)."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "typing"
 version = "3.7.4.3"
 description = "Type Hints for Python"
@@ -1387,6 +1395,10 @@ tomlkit = [
 tox = [
     {file = "tox-3.20.0-py2.py3-none-any.whl", hash = "sha256:e6318f404aff16522ff5211c88cab82b39af121735a443674e4e2e65f4e4637b"},
     {file = "tox-3.20.0.tar.gz", hash = "sha256:eb629ddc60e8542fd4a1956b2462e3b8771d49f1ff630cecceacaa0fbfb7605a"},
+]
+trove-classifiers = [
+    {file = "trove-classifiers-2020.10.7.tar.gz", hash = "sha256:9fee2ffe8f2709f102677f0d7745db3b8125cb1e11fcfef9e2324fab545f11d9"},
+    {file = "trove_classifiers-2020.10.7-py3-none-any.whl", hash = "sha256:4c7d0c2c4c41890b9c628956b543e48fec12d58e9bd8b5df2e8718f1679358d3"},
 ]
 typing = [
     {file = "typing-3.7.4.3-py2-none-any.whl", hash = "sha256:283d868f5071ab9ad873e5e52268d611e851c870a2ba354193026f2dfb29d8b5"},
